@@ -1,0 +1,44 @@
+{
+  "name": "@automate-army/email-reader-mcp",
+  "version": "1.0.1",
+  "type": "module",
+  "bin": {
+    "email-reader-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "files": [
+    "build/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "gmail",
+    "email",
+    "calendar",
+    "ai",
+    "llm",
+    "integration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server for reading Gmail messages via IMAP",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "imapflow": "^1.0.199",
+    "mailparser": "^3.7.5",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/mailparser": "^3.4.6",
+    "@types/node": "^24.7.2",
+    "typescript": "^5.9.3"
+  }
+}
