@@ -1,4 +1,4 @@
-# @automate-army/email-reader-mcp
+# Email Reader MCP
 
 A Model Context Protocol (MCP) server that enables Claude Desktop or any Client to read and search your Gmail messages via IMAP. Perfect for AI-powered email workflows, automation, and intelligent email management.
 
