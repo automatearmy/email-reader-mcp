@@ -35,7 +35,7 @@ Add this to your Claude Desktop configuration file:
   "mcpServers": {
     "email-reader": {
       "command": "npx",
-      "args": ["-y", "@automate-army/email-reader-mcp"]
+      "args": ["-y", "@automatearmy/email-reader-mcp"]
     }
   }
 }
@@ -169,7 +169,7 @@ Fetch and filter email messages from your Gmail inbox with powerful search capab
 
 ```bash
 # Clone the repository
-git clone https://github.com/automate-army/email-reader-mcp.git
+git clone https://github.com/automatearmy/email-reader-mcp.git
 cd email-reader-mcp
 
 # Install dependencies

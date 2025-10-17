@@ -1,5 +1,5 @@
 {
-  "name": "@automate-army/email-reader-mcp",
+  "name": "@automatearmy/email-reader-mcp",
   "version": "1.0.2",
   "type": "module",
   "bin": {
