@@ -1,6 +1,6 @@
 {
   "name": "@automate-army/email-reader-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "bin": {
     "email-reader-mcp": "build/index.js"
@@ -10,7 +10,7 @@
     "README.md",
     "LICENSE"
   ],
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/automatearmy/email-reader-mcp.git"
   },
@@ -24,7 +24,6 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
   },
-  
   "keywords": [
     "mcp",
     "model-context-protocol",
