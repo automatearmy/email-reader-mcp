@@ -1,6 +1,6 @@
 {
   "name": "@automate-army/email-reader-mcp",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "bin": {
     "email-reader-mcp": "build/index.js"
