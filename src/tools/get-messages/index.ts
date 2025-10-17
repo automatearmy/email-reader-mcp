@@ -1,6 +1,6 @@
 import { CallToolResult } from "@modelcontextprotocol/sdk/types.js";
 import { imapClient } from "../../imap/index.js";
-import { GetMessagesInput, getMessagesType } from "./schema.js";
+import { GetMessagesInput } from "./schema.js";
 import { simpleParser } from "mailparser";
 import { MessageEnvelopeObject, SearchObject } from "imapflow";
 
