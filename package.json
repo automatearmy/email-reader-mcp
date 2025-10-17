@@ -1,21 +1,30 @@
 {
-  "name": "@automatearmy/email-reader-mcp",
+  "name": "@automate-army/email-reader-mcp",
   "version": "1.0.3",
   "type": "module",
   "bin": {
-    "email-reader-mcp": "./build/index.js"
-  },
-  "scripts": {
-    "build": "tsc && chmod 755 build/index.js",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "email-reader-mcp": "build/index.js"
   },
   "files": [
     "build/",
     "README.md",
     "LICENSE"
   ],
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automatearmy/email-reader-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/automatearmy/email-reader-mcp/issues"
+  },
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc && chmod 755 build/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  
   "keywords": [
     "mcp",
     "model-context-protocol",
